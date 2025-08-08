@@ -44,13 +44,13 @@ while True:
     pilihan = input("Masukan pilihan menu kontak (1,2,3,atau 4): ")
 
     if pilihan == '1':
-       kontak_kantor.melihat_kontak()
+       kontak_keluarga.melihat_kontak()
 
     elif pilihan == '2':
-        kontak_kantor.menambah_kontak()
+        kontak_keluarga.menambah_kontak()
 
     elif pilihan == '3':
-        kontak_kantor.menghapus_kontak()
+        kontak_keluarga.menghapus_kontak()
 
     elif pilihan == '4':
         #keluar dari kontak
